@@ -1,10 +1,33 @@
-# Getting Started with Create React App
+# React - Advanced Examples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React tutorials may cover only some of the common hooks used by functional components. They describe its shadow DOM and how to create the webpages, but not always in the most efficient manner. Even the official React documentation does not show optimal examples for the sake of simplicity.
 
-## Available Scripts
+The examples in this project will show how to bring advanced hooks together to build with efficiency in mind.
 
-In the project directory, you can run:
+## Prequisite Knowledge
+
+### React
+
+You will need some basic knowledge of React from one of the many tutorials found online. The following functional component hooks are used in these examples:
+
+-   [useState](https://react.dev/reference/react/useState)
+    -   [useState - Parameters](https://react.dev/reference/react/useState#setstate-parameters) - Take note of the `nextState`'s ability to evaluate values when it's passed a function.
+-   [useCallback](https://react.dev/reference/react/useCallback)
+-   [useRef](https://react.dev/reference/react/useRef)
+-   [useReducer](https://react.dev/reference/react/useReducer)
+
+### JavaScript
+
+-   [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) - Used to copy an array or structure to a completely new structure.
+
+### TypeScript
+
+These examples make use of a light amount of TypeScript. This is why their file suffixes are `.tsx` rather than `.jsx`. This cheatsheet is a terrific resource for finding basic types and interfaces used by React.
+
+-   [React/TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
+-   [Official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+## How To Run
 
 ### `npm start`
 
@@ -13,11 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -28,19 +46,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
